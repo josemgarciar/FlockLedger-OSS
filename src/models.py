@@ -43,8 +43,6 @@ class Oveja:
     sexo: str
     alta: Optional[Alta] = None
     baja: Optional[Baja] = None
-    grupo_edad: str = ""
-    genotipiado: str = ""  # Campo para indicar si está genotipiado
     
     def to_dict(self):
         """Convertir a diccionario"""
@@ -55,8 +53,6 @@ class Oveja:
             'Fecha Identificación': self.fecha_identificacion,
             'Raza': self.raza,
             'Sexo': self.sexo,
-            'Genotipiado': self.genotipiado,
-            'Grupo Edad': self.grupo_edad,
             'Causa Alta': self.alta.causa if self.alta else '',
             'Fecha Alta': self.alta.fecha if self.alta else '',
             'Procedencia': self.alta.procedencia if self.alta else '',
@@ -109,9 +105,7 @@ class Oveja:
             raza=str(data.get('Raza', '')),
             sexo=str(data.get('Sexo', '')),
             alta=alta,
-            baja=baja,
-            grupo_edad=str(data.get('Grupo Edad', '')),
-            genotipiado=str(data.get('Genotipiado', ''))
+            baja=baja
         )
 
 

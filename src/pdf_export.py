@@ -26,8 +26,8 @@ class ExportadorPDF:
         doc = SimpleDocTemplate(
             ruta_archivo,
             pagesize=landscape(A4),
-            rightMargin=5*mm,
-            leftMargin=5*mm,
+            rightMargin=10*mm,
+            leftMargin=10*mm,
             topMargin=15*mm,
             bottomMargin=10*mm
         )
@@ -139,8 +139,8 @@ class ExportadorPDF:
         tabla = Table(
             datos_tabla,
             colWidths=[
-                11*mm,   # Nº Orden
-                19*mm,   # Identificación
+                14*mm,   # Nº Orden
+                22*mm,   # Identificación
                 14*mm,   # Año Nac
                 17*mm,   # Fecha Ident
                 14*mm,   # Raza
@@ -217,7 +217,7 @@ class ExportadorPDF:
         
         # Encabezados
         headers = [
-            'Nº O', 'Nº Ident.', 'Año N.', 'Fecha Ident.', 'Raza', 'Genot.', 'Sexo',
+            'Nº O', 'Nº Ident.', 'Año N.', 'Fecha Ident.', 'Raza', 'Sexo',
             'Causa A', 'Fecha A', 'Proc.', 'Guía A', 'Causa B', 'Fecha B', 'Dest.', 'Guía B', 'Inc.'
         ]
         
@@ -242,7 +242,6 @@ class ExportadorPDF:
                 str(oveja.ano_nacimiento),
                 oveja.fecha_identificacion,
                 oveja.raza,
-                oveja.genotipiado,
                 oveja.sexo,
                 oveja.alta.causa if oveja.alta else '',
                 oveja.alta.fecha if oveja.alta else '',

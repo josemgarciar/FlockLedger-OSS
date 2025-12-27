@@ -1,6 +1,6 @@
-Nº Orden,Identificación,Año Nacimiento,Fecha Identificación,Raza,Sexo,Genotipiado,Grupo Edad,Causa Alta,Fecha Alta,Procedencia,Guía Alta,Causa Baja,Fecha Baja,Destino,Guía Baja,Comunicación
-1,ES10008321011,2018,12/06/2019,Merino,M,,,-,A,12/06/2019,-,-,-,-,-,-,E o A
-2,ES10008390649,2016,17/08/2016,Merino,M,,,-,H,-,-,-,-,-,-,-,E o A
-3,ES10008390648,2016,01/08/2016,Merino,M,,,-,H,-,-,-,-,-,-,-,E o A
-4,ES10008405832,2014,18/10/2014,Merino,M,,,-,H,-,16/10/2014,-,-,-,-,-,E o A
-5,ES10008405826,2014,18/10/2014,Merino,M,,,-,H,-,18/10/2014,-,-,-,-,-,E o A
+Nº Orden,Identificación,Año Nacimiento,Fecha Identificación,Raza,Sexo,Causa Alta,Fecha Alta,Procedencia,Guía Alta,Causa Baja,Fecha Baja,Destino,Guía Baja,Comunicación
+1,ES10008321011,2018,12/06/2019,Merino,M,-,A,12/06/2019,-,-,-,-,-,-,E o A
+2,ES10008390649,2016,17/08/2016,Merino,M,-,H,-,-,-,-,-,-,-,E o A
+3,ES10008390648,2016,01/08/2016,Merino,M,-,H,-,-,-,-,-,-,-,E o A
+4,ES10008405832,2014,18/10/2014,Merino,M,-,H,-,16/10/2014,-,-,-,-,-,E o A
+5,ES10008405826,2014,18/10/2014,Merino,M,-,H,-,18/10/2014,-,-,-,-,-,E o A
